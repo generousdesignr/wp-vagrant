@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
         gem install wordmove
 
         ## Update WP CLI
-        sudo wp cli update --allow-root
+        sudo wp cli update --allow-root --yes
 
         ## List of domains on same Vagrant box
         DOMAINS=("domain1" "domain2")
